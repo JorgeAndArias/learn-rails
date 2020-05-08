@@ -19,7 +19,6 @@ group :development do
   gem 'listen', '>= 3.0.5', '< 3.2'
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
-  gem 'sqlite3'
 end
 
 # learn-rails
@@ -34,4 +33,8 @@ group :development do
 end
 group :production do
   gem 'pg'
+end
+group :test do
+  gem 'minitest-spec-rails'
+  gem 'minitest-rails-capybara'
 end
